@@ -1,0 +1,25 @@
+/* SlideUX redesign */
+
+/* Add variables */
+@import 'partials/redeux_config';
+
+/* Add mixins */
+@import 'partials/redeux_mixins';
+
+/* Override legacy Planview theme styles */
+@import 'partials/redeux_override';
+
+/* Add base styling and helpers */
+@import 'partials/redeux_base';
+
+/* Add header styling */
+@import 'partials/redeux_header';
+
+/* Add page-specific styling for solution detail pages*/
+@import 'partials/redeux_page_solutions_detail';
+
+/* Add footer styling */
+@import 'partials/redeux_footer';
+
+/* Include additional settings for Bootstrap carousel fade effect */
+@import "partials/bootstrap-3-3-carousel-fade";

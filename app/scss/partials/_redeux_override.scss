@@ -1,0 +1,77 @@
+/* Override legacy Planview theme styles */
+  
+body {
+  &.page,
+  &.page:not(.home),
+  &.archive {
+    &.page-template-redeux-secondary,
+    &.page-template-redeux-secondary-no-sidebar,
+    &.override-page-template-redeux-secondary,
+    &.page-template-redeux-leadership,
+    &.page-template-redeux-community,
+    &.archive-template-redeux-news,
+    &.post-type-archive-news.redeux,
+    &.archive-template-redeux-press-release,
+    &.post-type-archive-press-release.redeux,
+    &.archive-template-redeux-event,
+    &.post-type-archive-event.redeux,
+    &.page-template-full-width-redeux,
+    &.page-template-redeux-solutions,
+    &.page-template-redeux-products,
+    &.page-template-redeux-solutions-detail,
+    &.page-template-redeux-products-detail {
+      padding-top: 0;
+      
+      #site-header {
+        
+        &.redeux-masthead {
+          position: absolute !important;
+        
+          &.fixed {
+            position: fixed !important;
+          }
+        }
+      }
+  
+      #content {
+        
+        & > .entry, 
+        & > .hentry, 
+        & > *[id^="post"] {
+          position: relative;
+          color: $color-copy-primary;
+          margin: 0;
+          padding: 0;
+      
+          .entry-header {
+            margin: 0;
+            border-bottom: none;
+            position: relative;
+            z-index: 0;
+          }
+          
+          a {
+            border-bottom: none;
+            
+            &:hover {
+              border-bottom: none;
+            }
+          }
+          
+          ul,
+          ol {
+            margin: 0 0 15px 10px;
+            padding: 4px 0 0 10px;
+            padding: 0;
+            margin: 0;
+            
+            li {
+              margin: 0;
+              list-style-image: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}

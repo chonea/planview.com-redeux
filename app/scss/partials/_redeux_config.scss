@@ -1,0 +1,203 @@
+/* SlideUX redesign variables */
+
+//$img-dir: '../img/';
+$img-dir: '//planview.staging.wpengine.com/wp-content/themes/planview-wp-theme/img/';
+
+//$upload-dir: '/wp-content/uploads/';
+$upload-dir: '//planview.staging.wpengine.com/wp-content/uploads/';
+
+$font-stack: 'Avenir W02', Arial, Verdana, Helvetica, sans-serif;
+$font-stack-heavy: 'Avenir W01', Arial, Verdana, Helvetica, sans-serif;
+
+
+/* Bootstrap media screens for queries */
+
+/* Extra Extra Small devices (mobiles, 320px and up, * custom) */
+$screen-xxs-min: 320px;
+$screen-xxs-max: 479px;
+
+/* Extra Small devices (mobiles, 480px and up, * custom) */
+$screen-xs-min: 480px;
+
+/* Extra Small devices (mobiles, up to 767px, * Bootstrap 3 col-xs) */
+$screen-xs-max: 767px;
+
+/* Small devices (tablets, 768px and up, * Bootstrap 3 col-sm) */
+$screen-sm-min: 768px;
+$screen-sm-max: 991px;
+
+/* Medium devices (laptops, 992px and up, * Bootstrap 3 col-md) */
+$screen-md-min: 992px;
+$screen-md-max: 1199px;
+
+/* Large devices (desktops, 1200px and up, * Bootstrap 3 col-lg) */
+$screen-lg-min: 1200px;
+
+/* Extra Large devices (large desktops, 1320px and up, * custom) */
+$screen-xl-min: 1320px;
+
+$screen-adminbar-fixed: 600px;
+
+/* Common element sizes */
+
+/* Adminbar heights */
+//$adminbar-height: 46px;
+//@media screen and (min-width: 600px) {
+//  $adminbar-height: 46px;
+//} 
+//@media screen and (min-width: 783px) {
+  $adminbar-height: 32px;
+//}
+
+/* Masthead heights */
+$masthead-height-xs: 64px;
+$masthead-height-sm: 112px;
+$masthead-height-md: 112px;
+$masthead-height-lg: 80px;
+
+/* Mobile footer height */
+$mobile-footer-height: 88px;
+
+/* Breadcrumb heights */
+$breadcrumb-height-xs: 0;
+$breadcrumb-height-sm: 56px;
+$breadcrumb-height-md: 56px;
+$breadcrumb-height-lg: 56px;
+
+
+/* Color palette */
+/* Try not to use $_* colors directly.  Instead, use proxy colors below. */
+
+/* Whites */
+$_white: #fff;
+$_white-smoke: #f5f5f5;
+$_gainsboro: #e7e7e7;
+
+/* Blacks */
+$_black: #000;
+
+/* Grays */
+$_dark-gray: #a3a3a3;
+$_dim-gray: #666;
+$_night-rider: #333;
+$_cinder: #20262b;
+
+/* Blues */
+$_cobalt:  #005fb4;
+$_curious-blue: #3a7ab4;
+$_royal-blue: #2883e7;
+$_bismark: #416276;
+$_glacier: #80bcbb;
+$_shakespeare: #618db4;
+$_oyster-bay: #ccdce3;
+$_malibu: #61addf;
+$_dark-blue: #001930;
+
+/* Greens */
+$_forest-green:  #269930;
+$_fruit-salad: #4eb957;
+$_dark-sea-green: #8ab98e;
+$_cyprus: #0b2440;
+$_dark-pastel-green: #00bd4f;
+$_british-racing-green: #004d20;
+
+/* Yellows */
+$_tangerine-yellow:  #fac70f;
+
+
+/* Proxy colors */
+/* Use these variables in your SASSy markup */
+
+/* Brand colors */
+$color-brand-enterprise:                $_shakespeare;
+$color-brand-innotas:                   $_bismark;
+$color-brand-troux:                     $_glacier;
+$color-brand-projectplace:              $_dark-sea-green;
+
+/* Buttons */
+$color-button-primary:                  $_fruit-salad;
+$color-button-primary-hover:            $_forest-green;
+$color-button-primary-copy:             $_white;
+$color-button-primary-copy-sub:         $_british-racing-green;
+$color-button-primary-hover-copy:       $_white;
+$color-button-primary-hover-copy-sub:   $_british-racing-green;
+$color-button-secondary:                $_curious-blue;
+$color-button-secondary-hover:          $_cobalt;
+$color-button-secondary-copy:           $_white;
+$color-button-secondary-copy-sub:       $_night-rider;
+$color-button-secondary-hover-copy:     $_white;
+$color-button-secondary-hover-copy-sub: $_night-rider;
+
+/* Headers (this is new -- start moving header copy over into here) */
+$color-header:                          $_black;
+$color-header-product:                  $_dark-sea-green;
+$color-header-product-projectplace:     $_dark-sea-green;
+
+/* Copy */
+$color-copy:                            $_night-rider;
+$color-copy-primary:                    $_night-rider;
+$color-copy-header:                     $_black;
+$color-copy-lead:                       $_dark-gray;
+$color-copy-sub:                        $_dim-gray;
+$color-copy-hero:                       $_bismark;
+$color-copy-secondary:                  $_white;
+$color-divider:                         lighten($_night-rider, 50%);
+$color-divider-primary:                 lighten($_night-rider, 50%);
+$color-divider-secondary:               $_white;
+$color-copy-highlight:                  $_curious-blue;
+$color-copy-masthead:                   $_white;
+$color-copy-static:                     $_tangerine-yellow;
+$color-copy-menu-primary:               $_white;
+$color-copy-menu-secondary:             $_malibu;
+$color-copy-icon-primary:               $_bismark;
+$color-copy-icon-secondary:             $_white;
+$color-copy-icon-product:               $_dark-sea-green;
+
+/* Links */
+$color-link:                            $_cobalt;
+$color-link-hover:                      $_curious-blue;
+$color-link-breadcrumbs:                $_royal-blue;
+$color-link-masthead:                   $_malibu;
+$color-link-masthead-hover:             $_white;
+$color-link-masthead-active:            $_white;
+$color-link-footer:                     $_malibu;
+$color-link-popup:                      $_malibu;
+$color-link-hero:                       $_fruit-salad;
+$color-link-hero-hover:                 $_forest-green;
+$color-link-cta:                        $_curious-blue;
+$color-link-cta-hover:                  $_cobalt;
+$color-link-cta-bg-dark:                $_malibu;
+$color-link-cta-bg-dark-hover:          $_cobalt;
+$color-link-cta-bg-light:               $_cobalt;
+$color-link-cta-bg-light-hover:         $_malibu;
+$color-link-sub:                        $_dark-gray;
+
+/* Backgrounds */
+$color-background-html:                 #3d3d3d;
+$color-background-body:                 $_white;
+$color-background-masthead:             $_night-rider;
+$color-background-primary:              $_white;
+$color-background-secondary:            $_white-smoke;
+$color-background-video:                $_night-rider;
+$color-screen:                          $_night-rider;
+$color-background-zoom:                 rgba($_black, .56);
+$color-screen-gallery:                  rgba($_black, .56);
+$color-background-arrow:                rgba($_black, .72);
+$color-screen-hero:                     $_dark-blue;
+$color-screen-hero-cta:                 rgba($_black, .16);
+
+/* Borders */
+$color-border-primary:                  $_white;
+$color-border-arrow:                    rgba($_white, .24);
+$color-border-static:                   $_tangerine-yellow;
+
+/* Shadows */
+$color-shadow-default:                  $_bismark;
+$color-shadow-image:                    $_night-rider;
+$color-shadow-masthead:                 $_night-rider;
+$color-shadow-secondary:                $_night-rider;
+$color-shadow-inset:                    $_white;
+$color-shadow-menu:                     $_black;
+
+/* Product colors (temporary?) */
+$color-product-projectplace:            $_dark-sea-green;

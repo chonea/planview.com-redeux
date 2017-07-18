@@ -1,0 +1,19 @@
+/* SlideUX redesign page-specific styles */
+
+/* Add page-specific styling for homepage*/
+@import 'redeux_page_homepage';
+
+/* Add page-specific styling for secondary pages (company pages, etc.) */
+@import 'redeux_page_secondary';
+
+/* Add page-specific styling for solution pages */
+@import 'redeux_page_solutions';
+
+/* Add page-specific styling for solution detail pages*/
+@import 'redeux_page_solutions_detail';
+
+/* Add page-specific styling for product pages */
+@import 'redeux_page_products';
+
+/* Add page-specific styling for product detail pages*/
+@import 'redeux_page_products_detail';

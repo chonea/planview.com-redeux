@@ -1,0 +1,145 @@
+/* SlideUX redesign */
+
+/* Mixins */
+
+
+/*
+ * Mixin to swap font family for 900 weight fonts
+ */
+ 
+@mixin font-stack($weight) {
+  @if 900 == $weight {
+    font-family: 'Avenir W01', Arial, Verdana, Helvetica, sans-serif;
+    font-weight: 900;
+  } @else {
+    font-family: 'Avenir W02', Arial, Verdana, Helvetica, sans-serif;
+    font-weight: $weight;
+  }
+  font-style: normal;
+  font-stretch: normal;
+}
+
+
+/*
+ * Mixin to vertical and horizontal center an element
+ */
+ 
+@mixin flex-display-center() {
+  /* older webkit */
+  display: -webkit-box;
+  -webkit-box-align: center;
+  -webkit-justify-content: center;
+
+  /* older firefox */
+  display: -moz-box;
+  -moz-box-align: center;
+  -moz-box-pack: center;
+
+  /* IE10*/
+  display: -ms-flexbox;
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+
+  /* newer webkit */
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-box-pack: center;
+
+  /* Standard Form - IE 11+, FF 22+, Chrome 29+, Opera 17+ */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/*
+ * Mixin to vertical center only an element
+ */
+ 
+@mixin flex-display-center-vertical() {
+  /* older webkit */
+  display: -webkit-box;
+  -webkit-box-align: center;
+
+  /* older firefox */
+  display: -moz-box;
+  -moz-box-align: center;
+
+  /* IE10*/
+  display: -ms-flexbox;
+  -ms-flex-align: center;
+
+  /* newer webkit */
+  display: -webkit-flex;
+  -webkit-align-items: center;
+
+  /* Standard Form - IE 11+, FF 22+, Chrome 29+, Opera 17+ */
+  display: flex;
+  align-items: center;
+}
+
+
+/*
+ * Mixin to add legacy support to web transitions 
+ */
+ 
+@mixin transition($property, $duration, $timing-function, $delay) {
+  -webkit-transition: $property $duration $timing-function $delay;
+  -moz-transition: $property $duration $timing-function $delay;
+  -o-transition: $property $duration $timing-function $delay;
+  transition: $property $duration $timing-function $delay;
+}
+
+
+/*
+ * Mixin (and supporting CSS) to compensate for the height of the admin bar 
+ * for fixed position elements in WordPress themes 
+ */
+ 
+@mixin admin-sticky-fix($offset: 0) {
+  $narrow-offset: 46px;
+  $wide-offset: 32px;
+  @if $offset != 0 and type-of($offset) == 'number' {
+    $narrow-offset: $narrow-offset + $offset;
+    $wide-offset: $wide-offset + $offset;
+  }
+  .admin-bar & {
+    top: $narrow-offset;
+    @media screen and (min-width: 783px) {
+      top: $wide-offset;
+    }
+  }
+  
+  offset-type: type-of($offset);
+}
+
+.sticky-header {
+  position: fixed;
+  top: 0;
+
+  @include admin-sticky-fix;
+}
+.sticky-header-offset {
+  position: fixed;
+  top: 10px;
+
+  @include admin-sticky-fix(20px);
+}
+
+.sticky-header-fake-offset {
+  position: fixed;
+  top: 10px;
+
+  @include admin-sticky-fix(dumb);
+}
+
+
+/*
+ * Mixin for cross-browser rotations
+ */
+ 
+@mixin rotation($degrees: 0deg) {
+  -ms-transform: rotate($degrees); /* IE 9 */
+  -webkit-transform: rotate($degrees); /* Chrome, Safari, Opera */
+  transform: rotate($degrees);
+}
