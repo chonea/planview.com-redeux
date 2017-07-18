@@ -1,0 +1,18 @@
+[30-Jun-2017 18:06:04 UTC] PHP Warning:  include(/app/inc/redeux-header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/app/products/projectplace-detail/index.php on line 66
+[30-Jun-2017 18:06:04 UTC] PHP Stack trace:
+[30-Jun-2017 18:06:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/products/projectplace-detail/index.php:0
+[30-Jun-2017 18:06:04 UTC] PHP Warning:  include(): Failed opening '/app/inc/redeux-header.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/app/products/projectplace-detail/index.php on line 66
+[30-Jun-2017 18:06:04 UTC] PHP Stack trace:
+[30-Jun-2017 18:06:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/products/projectplace-detail/index.php:0
+[30-Jun-2017 18:07:59 UTC] PHP Warning:  include(../inc/redeux-header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/app/products/projectplace-detail/index.php on line 66
+[30-Jun-2017 18:07:59 UTC] PHP Stack trace:
+[30-Jun-2017 18:07:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/products/projectplace-detail/index.php:0
+[30-Jun-2017 18:07:59 UTC] PHP Warning:  include(): Failed opening '../inc/redeux-header.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/app/products/projectplace-detail/index.php on line 66
+[30-Jun-2017 18:07:59 UTC] PHP Stack trace:
+[30-Jun-2017 18:07:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/products/projectplace-detail/index.php:0
+[30-Jun-2017 18:19:11 UTC] PHP Warning:  include_once(/home/ubuntu/workspace/inc/redeux-header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/app/pages/products/projectplace-detail/index.php on line 66
+[30-Jun-2017 18:19:11 UTC] PHP Stack trace:
+[30-Jun-2017 18:19:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/pages/products/projectplace-detail/index.php:0
+[30-Jun-2017 18:19:11 UTC] PHP Warning:  include_once(): Failed opening '/home/ubuntu/workspace/inc/redeux-header.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/app/pages/products/projectplace-detail/index.php on line 66
+[30-Jun-2017 18:19:11 UTC] PHP Stack trace:
+[30-Jun-2017 18:19:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/pages/products/projectplace-detail/index.php:0

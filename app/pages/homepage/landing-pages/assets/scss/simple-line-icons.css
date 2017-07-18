@@ -1,0 +1,777 @@
+@font-face {
+  font-family: 'simple-line-icons';
+  src: url('../fonts/Simple-Line-Icons.eot?v=2.4.0');
+  src: url('../fonts/Simple-Line-Icons.eot?v=2.4.0#iefix') format('embedded-opentype'), url('../fonts/Simple-Line-Icons.woff2?v=2.4.0') format('woff2'), url('../fonts/Simple-Line-Icons.ttf?v=2.4.0') format('truetype'), url('../fonts/Simple-Line-Icons.woff?v=2.4.0') format('woff'), url('../fonts/Simple-Line-Icons.svg?v=2.4.0#simple-line-icons') format('svg');
+  font-weight: normal;
+  font-style: normal; }
+
+/* line 210, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-user, .icon-people, .icon-user-female, .icon-user-follow, .icon-user-following, .icon-user-unfollow, .icon-login, .icon-logout, .icon-emotsmile, .icon-phone, .icon-call-end, .icon-call-in, .icon-call-out, .icon-map, .icon-location-pin, .icon-direction, .icon-directions, .icon-compass, .icon-layers, .icon-menu, .icon-list, .icon-options-vertical, .icon-options, .icon-arrow-down, .icon-arrow-left, .icon-arrow-right, .icon-arrow-up, .icon-arrow-up-circle, .icon-arrow-left-circle, .icon-arrow-right-circle, .icon-arrow-down-circle, .icon-check, .icon-clock, .icon-plus, .icon-minus, .icon-close, .icon-event, .icon-exclamation, .icon-organization, .icon-trophy, .icon-screen-smartphone, .icon-screen-desktop, .icon-plane, .icon-notebook, .icon-mustache, .icon-mouse, .icon-magnet, .icon-energy, .icon-disc, .icon-cursor, .icon-cursor-move, .icon-crop, .icon-chemistry, .icon-speedometer, .icon-shield, .icon-screen-tablet, .icon-magic-wand, .icon-hourglass, .icon-graduation, .icon-ghost, .icon-game-controller, .icon-fire, .icon-eyeglass, .icon-envelope-open, .icon-envelope-letter, .icon-bell, .icon-badge, .icon-anchor, .icon-wallet, .icon-vector, .icon-speech, .icon-puzzle, .icon-printer, .icon-present, .icon-playlist, .icon-pin, .icon-picture, .icon-handbag, .icon-globe-alt, .icon-globe, .icon-folder-alt, .icon-folder, .icon-film, .icon-feed, .icon-drop, .icon-drawer, .icon-docs, .icon-doc, .icon-diamond, .icon-cup, .icon-calculator, .icon-bubbles, .icon-briefcase, .icon-book-open, .icon-basket-loaded, .icon-basket, .icon-bag, .icon-action-undo, .icon-action-redo, .icon-wrench, .icon-umbrella, .icon-trash, .icon-tag, .icon-support, .icon-frame, .icon-size-fullscreen, .icon-size-actual, .icon-shuffle, .icon-share-alt, .icon-share, .icon-rocket, .icon-question, .icon-pie-chart, .icon-pencil, .icon-note, .icon-loop, .icon-home, .icon-grid, .icon-graph, .icon-microphone, .icon-music-tone-alt, .icon-music-tone, .icon-earphones-alt, .icon-earphones, .icon-equalizer, .icon-like, .icon-dislike, .icon-control-start, .icon-control-rewind, .icon-control-play, .icon-control-pause, .icon-control-forward, .icon-control-end, .icon-volume-1, .icon-volume-2, .icon-volume-off, .icon-calendar, .icon-bulb, .icon-chart, .icon-ban, .icon-bubble, .icon-camrecorder, .icon-camera, .icon-cloud-download, .icon-cloud-upload, .icon-envelope, .icon-eye, .icon-flag, .icon-heart, .icon-info, .icon-key, .icon-link, .icon-lock, .icon-lock-open, .icon-magnifier, .icon-magnifier-add, .icon-magnifier-remove, .icon-paper-clip, .icon-paper-plane, .icon-power, .icon-refresh, .icon-reload, .icon-settings, .icon-star, .icon-symbol-female, .icon-symbol-male, .icon-target, .icon-credit-card, .icon-paypal, .icon-social-tumblr, .icon-social-twitter, .icon-social-facebook, .icon-social-instagram, .icon-social-linkedin, .icon-social-pinterest, .icon-social-github, .icon-social-google, .icon-social-reddit, .icon-social-skype, .icon-social-dribbble, .icon-social-behance, .icon-social-foursqare, .icon-social-soundcloud, .icon-social-spotify, .icon-social-stumbleupon, .icon-social-youtube, .icon-social-dropbox, .icon-social-vkontakte, .icon-social-steam {
+  font-family: 'simple-line-icons';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+/* line 225, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-user:before {
+  content: "\e005"; }
+
+/* line 229, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-people:before {
+  content: "\e001"; }
+
+/* line 233, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-user-female:before {
+  content: "\e000"; }
+
+/* line 237, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-user-follow:before {
+  content: "\e002"; }
+
+/* line 241, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-user-following:before {
+  content: "\e003"; }
+
+/* line 245, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-user-unfollow:before {
+  content: "\e004"; }
+
+/* line 249, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-login:before {
+  content: "\e066"; }
+
+/* line 253, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-logout:before {
+  content: "\e065"; }
+
+/* line 257, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-emotsmile:before {
+  content: "\e021"; }
+
+/* line 261, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-phone:before {
+  content: "\e600"; }
+
+/* line 265, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-call-end:before {
+  content: "\e048"; }
+
+/* line 269, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-call-in:before {
+  content: "\e047"; }
+
+/* line 273, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-call-out:before {
+  content: "\e046"; }
+
+/* line 277, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-map:before {
+  content: "\e033"; }
+
+/* line 281, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-location-pin:before {
+  content: "\e096"; }
+
+/* line 285, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-direction:before {
+  content: "\e042"; }
+
+/* line 289, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-directions:before {
+  content: "\e041"; }
+
+/* line 293, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-compass:before {
+  content: "\e045"; }
+
+/* line 297, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-layers:before {
+  content: "\e034"; }
+
+/* line 301, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-menu:before {
+  content: "\e601"; }
+
+/* line 305, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-list:before {
+  content: "\e067"; }
+
+/* line 309, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-options-vertical:before {
+  content: "\e602"; }
+
+/* line 313, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-options:before {
+  content: "\e603"; }
+
+/* line 317, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-arrow-down:before {
+  content: "\e604"; }
+
+/* line 321, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-arrow-left:before {
+  content: "\e605"; }
+
+/* line 325, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-arrow-right:before {
+  content: "\e606"; }
+
+/* line 329, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-arrow-up:before {
+  content: "\e607"; }
+
+/* line 333, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-arrow-up-circle:before {
+  content: "\e078"; }
+
+/* line 337, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-arrow-left-circle:before {
+  content: "\e07a"; }
+
+/* line 341, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-arrow-right-circle:before {
+  content: "\e079"; }
+
+/* line 345, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-arrow-down-circle:before {
+  content: "\e07b"; }
+
+/* line 349, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-check:before {
+  content: "\e080"; }
+
+/* line 353, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-clock:before {
+  content: "\e081"; }
+
+/* line 357, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-plus:before {
+  content: "\e095"; }
+
+/* line 361, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-minus:before {
+  content: "\e615"; }
+
+/* line 365, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-close:before {
+  content: "\e082"; }
+
+/* line 369, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-event:before {
+  content: "\e619"; }
+
+/* line 373, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-exclamation:before {
+  content: "\e617"; }
+
+/* line 377, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-organization:before {
+  content: "\e616"; }
+
+/* line 381, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-trophy:before {
+  content: "\e006"; }
+
+/* line 385, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-screen-smartphone:before {
+  content: "\e010"; }
+
+/* line 389, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-screen-desktop:before {
+  content: "\e011"; }
+
+/* line 393, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-plane:before {
+  content: "\e012"; }
+
+/* line 397, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-notebook:before {
+  content: "\e013"; }
+
+/* line 401, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-mustache:before {
+  content: "\e014"; }
+
+/* line 405, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-mouse:before {
+  content: "\e015"; }
+
+/* line 409, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-magnet:before {
+  content: "\e016"; }
+
+/* line 413, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-energy:before {
+  content: "\e020"; }
+
+/* line 417, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-disc:before {
+  content: "\e022"; }
+
+/* line 421, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-cursor:before {
+  content: "\e06e"; }
+
+/* line 425, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-cursor-move:before {
+  content: "\e023"; }
+
+/* line 429, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-crop:before {
+  content: "\e024"; }
+
+/* line 433, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-chemistry:before {
+  content: "\e026"; }
+
+/* line 437, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-speedometer:before {
+  content: "\e007"; }
+
+/* line 441, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-shield:before {
+  content: "\e00e"; }
+
+/* line 445, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-screen-tablet:before {
+  content: "\e00f"; }
+
+/* line 449, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-magic-wand:before {
+  content: "\e017"; }
+
+/* line 453, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-hourglass:before {
+  content: "\e018"; }
+
+/* line 457, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-graduation:before {
+  content: "\e019"; }
+
+/* line 461, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-ghost:before {
+  content: "\e01a"; }
+
+/* line 465, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-game-controller:before {
+  content: "\e01b"; }
+
+/* line 469, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-fire:before {
+  content: "\e01c"; }
+
+/* line 473, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-eyeglass:before {
+  content: "\e01d"; }
+
+/* line 477, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-envelope-open:before {
+  content: "\e01e"; }
+
+/* line 481, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-envelope-letter:before {
+  content: "\e01f"; }
+
+/* line 485, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-bell:before {
+  content: "\e027"; }
+
+/* line 489, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-badge:before {
+  content: "\e028"; }
+
+/* line 493, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-anchor:before {
+  content: "\e029"; }
+
+/* line 497, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-wallet:before {
+  content: "\e02a"; }
+
+/* line 501, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-vector:before {
+  content: "\e02b"; }
+
+/* line 505, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-speech:before {
+  content: "\e02c"; }
+
+/* line 509, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-puzzle:before {
+  content: "\e02d"; }
+
+/* line 513, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-printer:before {
+  content: "\e02e"; }
+
+/* line 517, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-present:before {
+  content: "\e02f"; }
+
+/* line 521, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-playlist:before {
+  content: "\e030"; }
+
+/* line 525, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-pin:before {
+  content: "\e031"; }
+
+/* line 529, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-picture:before {
+  content: "\e032"; }
+
+/* line 533, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-handbag:before {
+  content: "\e035"; }
+
+/* line 537, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-globe-alt:before {
+  content: "\e036"; }
+
+/* line 541, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-globe:before {
+  content: "\e037"; }
+
+/* line 545, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-folder-alt:before {
+  content: "\e039"; }
+
+/* line 549, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-folder:before {
+  content: "\e089"; }
+
+/* line 553, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-film:before {
+  content: "\e03a"; }
+
+/* line 557, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-feed:before {
+  content: "\e03b"; }
+
+/* line 561, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-drop:before {
+  content: "\e03e"; }
+
+/* line 565, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-drawer:before {
+  content: "\e03f"; }
+
+/* line 569, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-docs:before {
+  content: "\e040"; }
+
+/* line 573, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-doc:before {
+  content: "\e085"; }
+
+/* line 577, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-diamond:before {
+  content: "\e043"; }
+
+/* line 581, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-cup:before {
+  content: "\e044"; }
+
+/* line 585, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-calculator:before {
+  content: "\e049"; }
+
+/* line 589, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-bubbles:before {
+  content: "\e04a"; }
+
+/* line 593, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-briefcase:before {
+  content: "\e04b"; }
+
+/* line 597, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-book-open:before {
+  content: "\e04c"; }
+
+/* line 601, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-basket-loaded:before {
+  content: "\e04d"; }
+
+/* line 605, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-basket:before {
+  content: "\e04e"; }
+
+/* line 609, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-bag:before {
+  content: "\e04f"; }
+
+/* line 613, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-action-undo:before {
+  content: "\e050"; }
+
+/* line 617, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-action-redo:before {
+  content: "\e051"; }
+
+/* line 621, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-wrench:before {
+  content: "\e052"; }
+
+/* line 625, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-umbrella:before {
+  content: "\e053"; }
+
+/* line 629, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-trash:before {
+  content: "\e054"; }
+
+/* line 633, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-tag:before {
+  content: "\e055"; }
+
+/* line 637, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-support:before {
+  content: "\e056"; }
+
+/* line 641, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-frame:before {
+  content: "\e038"; }
+
+/* line 645, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-size-fullscreen:before {
+  content: "\e057"; }
+
+/* line 649, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-size-actual:before {
+  content: "\e058"; }
+
+/* line 653, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-shuffle:before {
+  content: "\e059"; }
+
+/* line 657, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-share-alt:before {
+  content: "\e05a"; }
+
+/* line 661, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-share:before {
+  content: "\e05b"; }
+
+/* line 665, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-rocket:before {
+  content: "\e05c"; }
+
+/* line 669, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-question:before {
+  content: "\e05d"; }
+
+/* line 673, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-pie-chart:before {
+  content: "\e05e"; }
+
+/* line 677, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-pencil:before {
+  content: "\e05f"; }
+
+/* line 681, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-note:before {
+  content: "\e060"; }
+
+/* line 685, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-loop:before {
+  content: "\e064"; }
+
+/* line 689, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-home:before {
+  content: "\e069"; }
+
+/* line 693, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-grid:before {
+  content: "\e06a"; }
+
+/* line 697, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-graph:before {
+  content: "\e06b"; }
+
+/* line 701, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-microphone:before {
+  content: "\e063"; }
+
+/* line 705, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-music-tone-alt:before {
+  content: "\e061"; }
+
+/* line 709, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-music-tone:before {
+  content: "\e062"; }
+
+/* line 713, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-earphones-alt:before {
+  content: "\e03c"; }
+
+/* line 717, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-earphones:before {
+  content: "\e03d"; }
+
+/* line 721, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-equalizer:before {
+  content: "\e06c"; }
+
+/* line 725, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-like:before {
+  content: "\e068"; }
+
+/* line 729, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-dislike:before {
+  content: "\e06d"; }
+
+/* line 733, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-control-start:before {
+  content: "\e06f"; }
+
+/* line 737, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-control-rewind:before {
+  content: "\e070"; }
+
+/* line 741, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-control-play:before {
+  content: "\e071"; }
+
+/* line 745, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-control-pause:before {
+  content: "\e072"; }
+
+/* line 749, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-control-forward:before {
+  content: "\e073"; }
+
+/* line 753, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-control-end:before {
+  content: "\e074"; }
+
+/* line 757, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-volume-1:before {
+  content: "\e09f"; }
+
+/* line 761, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-volume-2:before {
+  content: "\e0a0"; }
+
+/* line 765, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-volume-off:before {
+  content: "\e0a1"; }
+
+/* line 769, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-calendar:before {
+  content: "\e075"; }
+
+/* line 773, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-bulb:before {
+  content: "\e076"; }
+
+/* line 777, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-chart:before {
+  content: "\e077"; }
+
+/* line 781, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-ban:before {
+  content: "\e07c"; }
+
+/* line 785, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-bubble:before {
+  content: "\e07d"; }
+
+/* line 789, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-camrecorder:before {
+  content: "\e07e"; }
+
+/* line 793, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-camera:before {
+  content: "\e07f"; }
+
+/* line 797, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-cloud-download:before {
+  content: "\e083"; }
+
+/* line 801, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-cloud-upload:before {
+  content: "\e084"; }
+
+/* line 805, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-envelope:before {
+  content: "\e086"; }
+
+/* line 809, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-eye:before {
+  content: "\e087"; }
+
+/* line 813, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-flag:before {
+  content: "\e088"; }
+
+/* line 817, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-heart:before {
+  content: "\e08a"; }
+
+/* line 821, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-info:before {
+  content: "\e08b"; }
+
+/* line 825, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-key:before {
+  content: "\e08c"; }
+
+/* line 829, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-link:before {
+  content: "\e08d"; }
+
+/* line 833, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-lock:before {
+  content: "\e08e"; }
+
+/* line 837, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-lock-open:before {
+  content: "\e08f"; }
+
+/* line 841, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-magnifier:before {
+  content: "\e090"; }
+
+/* line 845, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-magnifier-add:before {
+  content: "\e091"; }
+
+/* line 849, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-magnifier-remove:before {
+  content: "\e092"; }
+
+/* line 853, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-paper-clip:before {
+  content: "\e093"; }
+
+/* line 857, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-paper-plane:before {
+  content: "\e094"; }
+
+/* line 861, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-power:before {
+  content: "\e097"; }
+
+/* line 865, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-refresh:before {
+  content: "\e098"; }
+
+/* line 869, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-reload:before {
+  content: "\e099"; }
+
+/* line 873, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-settings:before {
+  content: "\e09a"; }
+
+/* line 877, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-star:before {
+  content: "\e09b"; }
+
+/* line 881, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-symbol-female:before {
+  content: "\e09c"; }
+
+/* line 885, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-symbol-male:before {
+  content: "\e09d"; }
+
+/* line 889, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-target:before {
+  content: "\e09e"; }
+
+/* line 893, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-credit-card:before {
+  content: "\e025"; }
+
+/* line 897, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-paypal:before {
+  content: "\e608"; }
+
+/* line 901, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-social-tumblr:before {
+  content: "\e00a"; }
+
+/* line 905, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-social-twitter:before {
+  content: "\e009"; }
+
+/* line 909, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-social-facebook:before {
+  content: "\e00b"; }
+
+/* line 913, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-social-instagram:before {
+  content: "\e609"; }
+
+/* line 917, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-social-linkedin:before {
+  content: "\e60a"; }
+
+/* line 921, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-social-pinterest:before {
+  content: "\e60b"; }
+
+/* line 925, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-social-github:before {
+  content: "\e60c"; }
+
+/* line 929, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-social-google:before {
+  content: "\e60d"; }
+
+/* line 933, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-social-reddit:before {
+  content: "\e60e"; }
+
+/* line 937, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-social-skype:before {
+  content: "\e60f"; }
+
+/* line 941, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-social-dribbble:before {
+  content: "\e00d"; }
+
+/* line 945, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-social-behance:before {
+  content: "\e610"; }
+
+/* line 949, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-social-foursqare:before {
+  content: "\e611"; }
+
+/* line 953, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-social-soundcloud:before {
+  content: "\e612"; }
+
+/* line 957, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-social-spotify:before {
+  content: "\e613"; }
+
+/* line 961, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-social-stumbleupon:before {
+  content: "\e614"; }
+
+/* line 965, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-social-youtube:before {
+  content: "\e008"; }
+
+/* line 969, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-social-dropbox:before {
+  content: "\e00c"; }
+
+/* line 973, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-social-vkontakte:before {
+  content: "\e618"; }
+
+/* line 977, C:/Users/chonea/Box Sync/Chad Honea/Web/Production/www.planview.com/wp-content/themes/planview-wp-theme/landing-pages/assets/scss/simple-line-icons.scss */
+.icon-social-steam:before {
+  content: "\e620"; }
+
+/*# sourceMappingURL=simple-line-icons.css.map */
